@@ -20,10 +20,11 @@ def signup(username,password):
         if (a==username):
             print("Username already exists")
             break
-    file=open("user_details.txt","a")
-    file.write(username+" "+password)
-    file.write("\n")
-    file.close()
+        else:
+            file=open("user_details.txt","a")
+            file.write(username+" "+password)
+            file.write("\n")
+            file.close()
 def access(option):
     if option=="login":
         username=input("Enter your name")
