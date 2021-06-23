@@ -1,0 +1,24 @@
+{
+    "user": [
+        {
+            "username": "Mehzabeen",
+            "password": "M@123",
+            "profile": {
+                "Description": "Foodie",
+                "DOB": "19/04/2000",
+                "Hobbies": "Reading",
+                "Gender": "Female"
+            }
+        },
+        {
+            "username": "Jyoti",
+            "password": "J@123",
+            "profile": {
+                "Description": "Foodie",
+                "DOB": "29/3/2000",
+                "Hobbies": "Playing",
+                "Gender": "Female"
+            }
+        }
+    ]
+}
